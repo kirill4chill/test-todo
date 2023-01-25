@@ -35,8 +35,7 @@ function render() {
             <div>
                 ${todo.text}
                 <button data-id='${todo.id}'>Выполнено</button>
-            
-            
+                <br></br>
             </div>
         `;
     })
